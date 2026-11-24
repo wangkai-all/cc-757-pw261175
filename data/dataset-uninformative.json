@@ -1,0 +1,25 @@
+{
+  "id": "uninformative-demo",
+  "title": "数据不足演示",
+  "note": "虚构数据。所有特征在所有样品上都只有一种观测状态，任何树的代价都是 0；用来核对『数据不足以区分分支』的说明。",
+  "taxa": [
+    { "id": "U1", "label": "样品 U1" },
+    { "id": "U2", "label": "样品 U2" },
+    { "id": "U3", "label": "样品 U3" }
+  ],
+  "features": [
+    {
+      "id": "K1",
+      "name": "恒定性状 K1",
+      "ordered": false,
+      "states": ["0", "1"],
+      "costs": { "0|1": 1 }
+    }
+  ],
+  "matrix": {
+    "U1": ["0"],
+    "U2": ["0"],
+    "U3": ["0"]
+  },
+  "constraints": []
+}

@@ -1,0 +1,24 @@
+{
+  "name": "branchwork",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Local discrete-character branching analysis workbench (fictional data only)",
+  "scripts": {
+    "build": "vite build --config web/vite.config.js",
+    "start": "node server/index.js",
+    "dev": "node scripts/dev.js",
+    "test": "node --test test/*.test.js",
+    "e2e": "playwright test"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "vite": "^7.1.3"
+  }
+}
